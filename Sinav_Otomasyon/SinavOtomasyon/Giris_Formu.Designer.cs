@@ -58,42 +58,43 @@
             this.rbogrenci = new System.Windows.Forms.RadioButton();
             this.rbsinavsorumlusu = new System.Windows.Forms.RadioButton();
             this.lblkullanicitipi = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnKatiyOlGiris = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // lblkul_adi
             // 
             this.lblkul_adi.AutoSize = true;
             this.lblkul_adi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblkul_adi.Location = new System.Drawing.Point(14, 158);
+            this.lblkul_adi.Location = new System.Drawing.Point(16, 198);
             this.lblkul_adi.Name = "lblkul_adi";
-            this.lblkul_adi.Size = new System.Drawing.Size(120, 20);
+            this.lblkul_adi.Size = new System.Drawing.Size(139, 25);
             this.lblkul_adi.TabIndex = 0;
             this.lblkul_adi.Text = "Kullanıcı Adı:";
             // 
             // txtkul_ad_giris
             // 
             this.txtkul_ad_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtkul_ad_giris.Location = new System.Drawing.Point(185, 152);
+            this.txtkul_ad_giris.Location = new System.Drawing.Point(208, 190);
             this.txtkul_ad_giris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtkul_ad_giris.Name = "txtkul_ad_giris";
-            this.txtkul_ad_giris.Size = new System.Drawing.Size(189, 26);
+            this.txtkul_ad_giris.Size = new System.Drawing.Size(266, 30);
             this.txtkul_ad_giris.TabIndex = 1;
             // 
             // txtsifre_giris
             // 
             this.txtsifre_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtsifre_giris.Location = new System.Drawing.Point(185, 208);
+            this.txtsifre_giris.Location = new System.Drawing.Point(208, 260);
             this.txtsifre_giris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtsifre_giris.Name = "txtsifre_giris";
-            this.txtsifre_giris.Size = new System.Drawing.Size(189, 26);
+            this.txtsifre_giris.Size = new System.Drawing.Size(266, 30);
             this.txtsifre_giris.TabIndex = 3;
             this.txtsifre_giris.UseSystemPasswordChar = true;
             // 
@@ -101,21 +102,21 @@
             // 
             this.lblsifre.AutoSize = true;
             this.lblsifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblsifre.Location = new System.Drawing.Point(79, 214);
+            this.lblsifre.Location = new System.Drawing.Point(89, 268);
             this.lblsifre.Name = "lblsifre";
-            this.lblsifre.Size = new System.Drawing.Size(55, 20);
+            this.lblsifre.Size = new System.Drawing.Size(64, 25);
             this.lblsifre.TabIndex = 2;
             this.lblsifre.Text = "Şifre:";
             // 
             // btngiris
             // 
-            this.btngiris.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(150)))), ((int)(((byte)(190)))));
+            this.btngiris.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
             this.btngiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btngiris.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btngiris.Location = new System.Drawing.Point(185, 321);
+            this.btngiris.Location = new System.Drawing.Point(229, 349);
             this.btngiris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btngiris.Name = "btngiris";
-            this.btngiris.Size = new System.Drawing.Size(170, 32);
+            this.btngiris.Size = new System.Drawing.Size(191, 40);
             this.btngiris.TabIndex = 6;
             this.btngiris.Text = "Giriş";
             this.btngiris.UseVisualStyleBackColor = false;
@@ -125,6 +126,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnKatiyOlGiris);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -135,19 +137,20 @@
             this.panel1.Controls.Add(this.lblsifre);
             this.panel1.Controls.Add(this.btngiris);
             this.panel1.Controls.Add(this.txtsifre_giris);
-            this.panel1.Location = new System.Drawing.Point(269, 82);
+            this.panel1.Location = new System.Drawing.Point(747, 70);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(409, 413);
+            this.panel1.Size = new System.Drawing.Size(510, 567);
             this.panel1.TabIndex = 9;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(140, 152);
+            this.pictureBox3.Location = new System.Drawing.Point(158, 190);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(42, 33);
+            this.pictureBox3.Size = new System.Drawing.Size(47, 41);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 14;
             this.pictureBox3.TabStop = false;
@@ -156,9 +159,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(140, 202);
+            this.pictureBox2.Location = new System.Drawing.Point(158, 252);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(42, 42);
+            this.pictureBox2.Size = new System.Drawing.Size(47, 52);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -166,9 +170,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(101, 19);
+            this.pictureBox1.Location = new System.Drawing.Point(114, 24);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(37, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(42, 40);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
@@ -177,10 +182,10 @@
             // 
             this.lblgirisyap.AutoSize = true;
             this.lblgirisyap.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblgirisyap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(150)))), ((int)(((byte)(190)))));
-            this.lblgirisyap.Location = new System.Drawing.Point(155, 19);
+            this.lblgirisyap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
+            this.lblgirisyap.Location = new System.Drawing.Point(174, 24);
             this.lblgirisyap.Name = "lblgirisyap";
-            this.lblgirisyap.Size = new System.Drawing.Size(140, 32);
+            this.lblgirisyap.Size = new System.Drawing.Size(161, 38);
             this.lblgirisyap.TabIndex = 14;
             this.lblgirisyap.Text = "Giris Yap";
             // 
@@ -189,9 +194,9 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.linkLabel1.LinkColor = System.Drawing.Color.Red;
-            this.linkLabel1.Location = new System.Drawing.Point(195, 367);
+            this.linkLabel1.Location = new System.Drawing.Point(241, 452);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(145, 20);
+            this.linkLabel1.Size = new System.Drawing.Size(179, 25);
             this.linkLabel1.TabIndex = 9;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Şifremi Unuttum";
@@ -214,19 +219,20 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.txtkul_adi);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(704, 82);
+            this.panel2.Location = new System.Drawing.Point(747, 70);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(419, 413);
+            this.panel2.Size = new System.Drawing.Size(510, 567);
             this.panel2.TabIndex = 10;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(137, 20);
+            this.pictureBox4.Location = new System.Drawing.Point(154, 25);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(36, 31);
+            this.pictureBox4.Size = new System.Drawing.Size(40, 39);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
@@ -235,22 +241,22 @@
             // 
             this.lblkayıtol.AutoSize = true;
             this.lblkayıtol.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblkayıtol.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(150)))), ((int)(((byte)(190)))));
-            this.lblkayıtol.Location = new System.Drawing.Point(185, 19);
+            this.lblkayıtol.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
+            this.lblkayıtol.Location = new System.Drawing.Point(208, 24);
             this.lblkayıtol.Name = "lblkayıtol";
-            this.lblkayıtol.Size = new System.Drawing.Size(122, 32);
+            this.lblkayıtol.Size = new System.Drawing.Size(140, 38);
             this.lblkayıtol.TabIndex = 15;
             this.lblkayıtol.Text = "Kayıt Ol";
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(150)))), ((int)(((byte)(190)))));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(177, 356);
+            this.button1.Location = new System.Drawing.Point(224, 447);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 31);
+            this.button1.Size = new System.Drawing.Size(183, 39);
             this.button1.TabIndex = 29;
             this.button1.Text = "Kayıt Ol";
             this.button1.UseVisualStyleBackColor = false;
@@ -259,67 +265,67 @@
             // txtmail
             // 
             this.txtmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtmail.Location = new System.Drawing.Point(159, 299);
+            this.txtmail.Location = new System.Drawing.Point(179, 374);
             this.txtmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtmail.Name = "txtmail";
-            this.txtmail.Size = new System.Drawing.Size(224, 26);
+            this.txtmail.Size = new System.Drawing.Size(265, 30);
             this.txtmail.TabIndex = 28;
             // 
             // lblMail
             // 
             this.lblMail.AutoSize = true;
             this.lblMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMail.Location = new System.Drawing.Point(91, 305);
+            this.lblMail.Location = new System.Drawing.Point(102, 381);
             this.lblMail.Name = "lblMail";
-            this.lblMail.Size = new System.Drawing.Size(50, 20);
+            this.lblMail.Size = new System.Drawing.Size(59, 25);
             this.lblMail.TabIndex = 27;
             this.lblMail.Text = "Mail:";
             // 
             // txtsoyad
             // 
             this.txtsoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtsoyad.Location = new System.Drawing.Point(159, 139);
+            this.txtsoyad.Location = new System.Drawing.Point(179, 174);
             this.txtsoyad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtsoyad.Name = "txtsoyad";
-            this.txtsoyad.Size = new System.Drawing.Size(224, 26);
+            this.txtsoyad.Size = new System.Drawing.Size(265, 30);
             this.txtsoyad.TabIndex = 26;
             // 
             // lblSoyad
             // 
             this.lblSoyad.AutoSize = true;
             this.lblSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSoyad.Location = new System.Drawing.Point(75, 145);
+            this.lblSoyad.Location = new System.Drawing.Point(84, 181);
             this.lblSoyad.Name = "lblSoyad";
-            this.lblSoyad.Size = new System.Drawing.Size(66, 20);
+            this.lblSoyad.Size = new System.Drawing.Size(81, 25);
             this.lblSoyad.TabIndex = 25;
             this.lblSoyad.Text = "Soyad:";
             // 
             // txtad
             // 
             this.txtad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtad.Location = new System.Drawing.Point(159, 82);
+            this.txtad.Location = new System.Drawing.Point(179, 102);
             this.txtad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtad.Name = "txtad";
-            this.txtad.Size = new System.Drawing.Size(224, 26);
+            this.txtad.Size = new System.Drawing.Size(265, 30);
             this.txtad.TabIndex = 24;
             // 
             // lblAd
             // 
             this.lblAd.AutoSize = true;
             this.lblAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAd.Location = new System.Drawing.Point(98, 88);
+            this.lblAd.Location = new System.Drawing.Point(110, 110);
             this.lblAd.Name = "lblAd";
-            this.lblAd.Size = new System.Drawing.Size(43, 20);
+            this.lblAd.Size = new System.Drawing.Size(52, 25);
             this.lblAd.TabIndex = 23;
             this.lblAd.Text = " Ad:";
             // 
             // txtsifre
             // 
             this.txtsifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtsifre.Location = new System.Drawing.Point(159, 246);
+            this.txtsifre.Location = new System.Drawing.Point(179, 308);
             this.txtsifre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtsifre.Name = "txtsifre";
-            this.txtsifre.Size = new System.Drawing.Size(224, 26);
+            this.txtsifre.Size = new System.Drawing.Size(265, 30);
             this.txtsifre.TabIndex = 22;
             this.txtsifre.UseSystemPasswordChar = true;
             // 
@@ -327,28 +333,28 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(86, 252);
+            this.label1.Location = new System.Drawing.Point(97, 315);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 20);
+            this.label1.Size = new System.Drawing.Size(64, 25);
             this.label1.TabIndex = 21;
             this.label1.Text = "Şifre:";
             // 
             // txtkul_adi
             // 
             this.txtkul_adi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtkul_adi.Location = new System.Drawing.Point(159, 191);
+            this.txtkul_adi.Location = new System.Drawing.Point(179, 239);
             this.txtkul_adi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtkul_adi.Name = "txtkul_adi";
-            this.txtkul_adi.Size = new System.Drawing.Size(224, 26);
+            this.txtkul_adi.Size = new System.Drawing.Size(265, 30);
             this.txtkul_adi.TabIndex = 20;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(21, 194);
+            this.label2.Location = new System.Drawing.Point(24, 242);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 20);
+            this.label2.Size = new System.Drawing.Size(139, 25);
             this.label2.TabIndex = 19;
             this.label2.Text = "Kullanıcı Adı:";
             // 
@@ -357,10 +363,10 @@
             this.rbadmin.AutoSize = true;
             this.rbadmin.BackColor = System.Drawing.Color.Transparent;
             this.rbadmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rbadmin.Location = new System.Drawing.Point(64, 344);
+            this.rbadmin.Location = new System.Drawing.Point(102, 95);
             this.rbadmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbadmin.Name = "rbadmin";
-            this.rbadmin.Size = new System.Drawing.Size(82, 24);
+            this.rbadmin.Size = new System.Drawing.Size(98, 29);
             this.rbadmin.TabIndex = 10;
             this.rbadmin.TabStop = true;
             this.rbadmin.Text = "Admin";
@@ -371,10 +377,10 @@
             this.rbogrenci.AutoSize = true;
             this.rbogrenci.BackColor = System.Drawing.Color.Transparent;
             this.rbogrenci.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rbogrenci.Location = new System.Drawing.Point(64, 382);
+            this.rbogrenci.Location = new System.Drawing.Point(234, 95);
             this.rbogrenci.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbogrenci.Name = "rbogrenci";
-            this.rbogrenci.Size = new System.Drawing.Size(96, 24);
+            this.rbogrenci.Size = new System.Drawing.Size(113, 29);
             this.rbogrenci.TabIndex = 11;
             this.rbogrenci.TabStop = true;
             this.rbogrenci.Text = "Öğrenci";
@@ -385,10 +391,10 @@
             this.rbsinavsorumlusu.AutoSize = true;
             this.rbsinavsorumlusu.BackColor = System.Drawing.Color.Transparent;
             this.rbsinavsorumlusu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rbsinavsorumlusu.Location = new System.Drawing.Point(64, 423);
+            this.rbsinavsorumlusu.Location = new System.Drawing.Point(375, 95);
             this.rbsinavsorumlusu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbsinavsorumlusu.Name = "rbsinavsorumlusu";
-            this.rbsinavsorumlusu.Size = new System.Drawing.Size(171, 24);
+            this.rbsinavsorumlusu.Size = new System.Drawing.Size(201, 29);
             this.rbsinavsorumlusu.TabIndex = 12;
             this.rbsinavsorumlusu.TabStop = true;
             this.rbsinavsorumlusu.Text = "Sınav Sorumlusu";
@@ -399,38 +405,50 @@
             this.lblkullanicitipi.AutoSize = true;
             this.lblkullanicitipi.BackColor = System.Drawing.Color.Transparent;
             this.lblkullanicitipi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblkullanicitipi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(150)))), ((int)(((byte)(190)))));
-            this.lblkullanicitipi.Location = new System.Drawing.Point(68, 303);
+            this.lblkullanicitipi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
+            this.lblkullanicitipi.Location = new System.Drawing.Point(97, 43);
             this.lblkullanicitipi.Name = "lblkullanicitipi";
-            this.lblkullanicitipi.Size = new System.Drawing.Size(136, 25);
+            this.lblkullanicitipi.Size = new System.Drawing.Size(166, 29);
             this.lblkullanicitipi.TabIndex = 13;
             this.lblkullanicitipi.Text = "Kullanıcı Tipi";
             // 
-            // pictureBox5
+            // pictureBox6
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(29, 82);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(213, 203);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 14;
-            this.pictureBox5.TabStop = false;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(32, 164);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(590, 526);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 15;
+            this.pictureBox6.TabStop = false;
+            // 
+            // btnKatiyOlGiris
+            // 
+            this.btnKatiyOlGiris.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
+            this.btnKatiyOlGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKatiyOlGiris.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnKatiyOlGiris.Location = new System.Drawing.Point(229, 405);
+            this.btnKatiyOlGiris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnKatiyOlGiris.Name = "btnKatiyOlGiris";
+            this.btnKatiyOlGiris.Size = new System.Drawing.Size(191, 40);
+            this.btnKatiyOlGiris.TabIndex = 15;
+            this.btnKatiyOlGiris.Text = "Kayıt Ol";
+            this.btnKatiyOlGiris.UseVisualStyleBackColor = false;
+            this.btnKatiyOlGiris.Click += new System.EventHandler(this.btnKatiyOlGiris_Click);
             // 
             // GirisForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(219)))), ((int)(((byte)(210)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1198, 579);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.lblkullanicitipi);
+            this.ClientSize = new System.Drawing.Size(1348, 724);
             this.Controls.Add(this.rbsinavsorumlusu);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.rbogrenci);
             this.Controls.Add(this.rbadmin);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.lblkullanicitipi);
+            this.Controls.Add(this.rbogrenci);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "GirisForm";
@@ -443,7 +461,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -480,7 +498,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Button btnKatiyOlGiris;
     }
 }
 

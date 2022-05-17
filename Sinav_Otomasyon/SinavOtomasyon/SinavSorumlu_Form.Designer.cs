@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SinavSorumlu_Form));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -190,8 +189,9 @@
             // 
             // btnSoruEkle
             // 
-            this.btnSoruEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(218)))), ((int)(((byte)(227)))));
+            this.btnSoruEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
             this.btnSoruEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSoruEkle.ForeColor = System.Drawing.Color.White;
             this.btnSoruEkle.Location = new System.Drawing.Point(72, 379);
             this.btnSoruEkle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSoruEkle.Name = "btnSoruEkle";
@@ -203,15 +203,16 @@
             // 
             // btnTemizle
             // 
-            this.btnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(218)))), ((int)(((byte)(227)))));
+            this.btnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
             this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTemizle.ForeColor = System.Drawing.Color.White;
             this.btnTemizle.Location = new System.Drawing.Point(72, 462);
             this.btnTemizle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(194, 42);
             this.btnTemizle.TabIndex = 16;
             this.btnTemizle.Text = "Temizle";
-            this.btnTemizle.UseVisualStyleBackColor = true;
+            this.btnTemizle.UseVisualStyleBackColor = false;
             this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
             // cmbxUniteSec
@@ -238,7 +239,7 @@
             this.lblUniteSec.AutoSize = true;
             this.lblUniteSec.BackColor = System.Drawing.Color.Transparent;
             this.lblUniteSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblUniteSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblUniteSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblUniteSec.Location = new System.Drawing.Point(79, 201);
             this.lblUniteSec.Name = "lblUniteSec";
             this.lblUniteSec.Size = new System.Drawing.Size(146, 25);
@@ -294,8 +295,9 @@
             // 
             // btnKaydet
             // 
-            this.btnKaydet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(218)))), ((int)(((byte)(227)))));
+            this.btnKaydet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
             this.btnKaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKaydet.ForeColor = System.Drawing.Color.White;
             this.btnKaydet.Location = new System.Drawing.Point(72, 538);
             this.btnKaydet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKaydet.Name = "btnKaydet";
@@ -307,8 +309,9 @@
             // 
             // btnSoruResimEkle
             // 
-            this.btnSoruResimEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(180)))), ((int)(((byte)(194)))));
+            this.btnSoruResimEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
             this.btnSoruResimEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSoruResimEkle.ForeColor = System.Drawing.Color.White;
             this.btnSoruResimEkle.Location = new System.Drawing.Point(1214, 249);
             this.btnSoruResimEkle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSoruResimEkle.Name = "btnSoruResimEkle";
@@ -358,7 +361,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(219)))), ((int)(((byte)(210)))));
             this.ClientSize = new System.Drawing.Size(1390, 836);
             this.Controls.Add(this.txtDSecenek);
             this.Controls.Add(this.txtCSecenek);

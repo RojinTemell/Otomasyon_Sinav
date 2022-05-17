@@ -83,6 +83,9 @@
     <Compile Include="SinavSorumlu_Form.Designer.cs">
       <DependentUpon>SinavSorumlu_Form.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin_Form.resx">
+      <DependentUpon>Admin_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Giris_Formu.resx">
       <DependentUpon>Giris_Formu.cs</DependentUpon>
     </EmbeddedResource>

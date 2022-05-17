@@ -16,10 +16,12 @@ namespace SinavOtomasyon
         public GirisForm()
         {
             InitializeComponent();
+            panel2.Visible= false;
+
         }
 
         SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-N6SCB07;Initial Catalog=SinavSistemi;Integrated Security=True");
-
+        
 
 
         private void btngiris_Click(object sender, EventArgs e)
@@ -135,6 +137,8 @@ namespace SinavOtomasyon
                         komut.ExecuteNonQuery();
                         baglanti.Close();
                         MessageBox.Show("öğrenci olarak  kayıt  yapıldı");
+                        panel2.Visible = false;
+                        panel1.Visible = true;
                         foreach (Control item in panel2.Controls) if (item is TextBox) item.Text = "";
                     }
                     else if (rbadmin.Checked == true)
@@ -149,6 +153,8 @@ namespace SinavOtomasyon
                         komut.ExecuteNonQuery();
                         baglanti.Close();
                         MessageBox.Show("admin olarak kayıt yapıldı");
+                        panel2.Visible = false;
+                        panel1.Visible = true;
                         foreach (Control item in panel2.Controls) if (item is TextBox) item.Text = "";
                     }
                     else if (rbsinavsorumlusu.Checked == true)
@@ -163,7 +169,13 @@ namespace SinavOtomasyon
                         komut.ExecuteNonQuery();
                         baglanti.Close();
                         MessageBox.Show(" sınav sorumlusu olarak kayıt yapıldı");
+                        panel2.Visible = false;
+                        panel1.Visible = true;
+
                         foreach (Control item in panel2.Controls) if (item is TextBox) item.Text = "";
+                        
+                        
+
                     }
 
                 }
@@ -180,6 +192,12 @@ namespace SinavOtomasyon
             sifremiUnuttum_Formu.Show();
             this.Hide();
 
+        }
+
+        private void btnKatiyOlGiris_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = false;
+            panel2.Visible = true;
         }
     }
 }
