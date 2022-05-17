@@ -55,9 +55,9 @@ namespace SinavOtomasyon
 
             baglanti.Open();
 
-            SqlCommand komut = new SqlCommand("insert into tblSoru(SoruResim,secenek1,secenek2,secenek3,secenek4,dogruSecenek,UniteID,TestID) values(@SoruResim,@secenek1,@secenek2,@secenek3,@secenek4,@dogruSecenek,@UniteID,@TestID)",baglanti);
+            SqlCommand komut = new SqlCommand("insert into tblSoru(soruResim,secenek1,secenek2,secenek3,secenek4,dogruSecenek,UniteID,TestID) values(@soruResim,@secenek1,@secenek2,@secenek3,@secenek4,@dogruSecenek,@UniteID,@TestID)",baglanti);
 
-            komut.Parameters.Add("@SoruResim",SqlDbType.Image,resim.Length).Value=resim;
+            komut.Parameters.Add("@soruResim",SqlDbType.Image,resim.Length).Value=resim;
             komut.Parameters.AddWithValue("@secenek1", txtASecenek.Text);
             komut.Parameters.AddWithValue("@secenek2", txtBSecenek.Text);
             komut.Parameters.AddWithValue("@secenek3", txtCSecenek.Text);

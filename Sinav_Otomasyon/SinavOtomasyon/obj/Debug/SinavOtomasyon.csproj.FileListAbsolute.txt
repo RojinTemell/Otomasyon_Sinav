@@ -38,3 +38,17 @@ C:\Users\rojin\Source\Repos\Otomasyon_Sinave\Sinav_Otomasyon\SinavOtomasyon\obj\
 C:\Users\rojin\Source\Repos\Otomasyon_Sinave\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.csproj.CoreCompileInputs.cache
 C:\Users\rojin\Source\Repos\Otomasyon_Sinave\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.exe
 C:\Users\rojin\Source\Repos\Otomasyon_Sinave\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.pdb
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\bin\Debug\SinavOtomasyon.exe.config
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\bin\Debug\SinavOtomasyon.exe
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\bin\Debug\SinavOtomasyon.pdb
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.csproj.AssemblyReference.cache
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.csproj.SuggestedBindingRedirects.cache
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.Admin_Form.resources
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.GirisForm.resources
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.Properties.Resources.resources
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.SifremiUnuttum_Formu.resources
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.SinavSorumlu_Form.resources
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.csproj.GenerateResource.cache
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.csproj.CoreCompileInputs.cache
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.exe
+C:\Users\rojin\Source\Repos\Otomasyon_Sinavv\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.pdb

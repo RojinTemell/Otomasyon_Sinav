@@ -39,6 +39,12 @@ namespace SinavOtomasyon
             da.Fill(dt);
 
             dgvAdmin.DataSource = dt;
+            dgvAdmin.AllowUserToAddRows = false;
+            DataGridViewCheckBoxColumn checkBoxColumn= new DataGridViewCheckBoxColumn();
+            checkBoxColumn.Width = 40;
+            checkBoxColumn.Name = "Seç";
+            checkBoxColumn.HeaderText = "";
+            dgvAdmin.Columns.Insert(0,checkBoxColumn);
             baglanti.Close();
 
 
@@ -48,7 +54,7 @@ namespace SinavOtomasyon
         {
 
 
-            byte[] imgdata=(byte[])dgvAdmin.CurrentRow.Cells[1].Value;
+            byte[] imgdata=(byte[])dgvAdmin.CurrentRow.Cells[2].Value;
             MemoryStream ms=new MemoryStream(imgdata);
             pbAdmin.Image = Image.FromStream(ms);
 
@@ -60,13 +66,13 @@ namespace SinavOtomasyon
                     {
 
                    
-                        txtAdminForm.Text = "Soru ID: "+row.Cells[0].Value.ToString() + Environment.NewLine+
-                                            "Test ID: "+row.Cells[3].Value.ToString() + Environment.NewLine+
-                                            "Ünite ID: "+row.Cells[4].Value.ToString() + Environment.NewLine+Environment.NewLine+
-                                            "A) "+row.Cells[5].Value.ToString() + Environment.NewLine+
-                                            "B) "+row.Cells[6].Value.ToString() + Environment.NewLine+
-                                            "C) "+row.Cells[7].Value.ToString() + Environment.NewLine+
-                                            "D) "+row.Cells[8].Value.ToString() + Environment.NewLine+
+                        txtAdminForm.Text = "Soru ID: "+row.Cells[1].Value.ToString() + Environment.NewLine+
+                                            "Test ID: "+row.Cells[4].Value.ToString() + Environment.NewLine+
+                                            "Ünite ID: "+row.Cells[5].Value.ToString() + Environment.NewLine+Environment.NewLine+
+                                            "A) "+row.Cells[6].Value.ToString() + Environment.NewLine+
+                                            "B) "+row.Cells[7].Value.ToString() + Environment.NewLine+
+                                            "C) "+row.Cells[8].Value.ToString() + Environment.NewLine+
+                                            "D) "+row.Cells[9].Value.ToString() + Environment.NewLine+
                                             "Doğru Cevap: " + row.Cells[2].Value.ToString() + Environment.NewLine;
                     }
                 }
@@ -74,11 +80,32 @@ namespace SinavOtomasyon
             }
 
         }
+
+
         
 
         private void btnAdminFormOnayla_Click(object sender, EventArgs e)
         {
-            
+            foreach(DataGridViewRow row in dgvAdmin.Rows)
+            {
+                bool select1 = Convert.ToBoolean(row.Cells["Seç"].Value);
+                if (select1)
+                {
+                    SqlCommand komut = new SqlCommand("insert into tblAdminOnayli(soruResim,secenek1,secenek2,secenek3,secenek4,dogruSecenek,UniteID,TestID)values(@soruResim,@secenek1,@secenek2,@secenek3,@secenek4,@dogruSecenek,@UniteID,@TestID)", baglanti);
+                    komut.Parameters.AddWithValue("soruResim", row.Cells["soruResim"].Value);
+                    komut.Parameters.AddWithValue("secenek1", row.Cells["secenek1"].Value);
+                    komut.Parameters.AddWithValue("secenek2", row.Cells["secenek2"].Value);
+                    komut.Parameters.AddWithValue("secenek3", row.Cells["secenek3"].Value);
+                    komut.Parameters.AddWithValue("secenek4", row.Cells["secenek4"].Value);
+                    komut.Parameters.AddWithValue("dogruSecenek", row.Cells["dogruSecenek"].Value);
+                    komut.Parameters.AddWithValue("UniteID", row.Cells["UniteID"].Value);
+                    komut.Parameters.AddWithValue("TestID", row.Cells["TestID"].Value);
+                    baglanti.Open();
+                    komut.ExecuteNonQuery();
+                    baglanti.Close();
+                }
+            }
+            MessageBox.Show("Sorular onaylandı");
         }
     }
 }
