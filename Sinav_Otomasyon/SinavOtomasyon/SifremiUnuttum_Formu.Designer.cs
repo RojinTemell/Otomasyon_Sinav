@@ -56,17 +56,17 @@
             // txtMailDogrulama
             // 
             this.txtMailDogrulama.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMailDogrulama.Location = new System.Drawing.Point(148, 31);
+            this.txtMailDogrulama.Location = new System.Drawing.Point(191, 53);
             this.txtMailDogrulama.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMailDogrulama.Name = "txtMailDogrulama";
-            this.txtMailDogrulama.Size = new System.Drawing.Size(183, 30);
+            this.txtMailDogrulama.Size = new System.Drawing.Size(283, 30);
             this.txtMailDogrulama.TabIndex = 8;
             // 
             // lblMail_SYenileme
             // 
             this.lblMail_SYenileme.AutoSize = true;
             this.lblMail_SYenileme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMail_SYenileme.Location = new System.Drawing.Point(62, 34);
+            this.lblMail_SYenileme.Location = new System.Drawing.Point(86, 56);
             this.lblMail_SYenileme.Name = "lblMail_SYenileme";
             this.lblMail_SYenileme.Size = new System.Drawing.Size(59, 25);
             this.lblMail_SYenileme.TabIndex = 7;
@@ -77,7 +77,7 @@
             this.btnKodGonder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnKodGonder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKodGonder.ForeColor = System.Drawing.Color.White;
-            this.btnKodGonder.Location = new System.Drawing.Point(140, 88);
+            this.btnKodGonder.Location = new System.Drawing.Point(282, 103);
             this.btnKodGonder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKodGonder.Name = "btnKodGonder";
             this.btnKodGonder.Size = new System.Drawing.Size(192, 45);
@@ -94,11 +94,11 @@
             this.grpbGuvenlikKod.Controls.Add(this.lblGuvenlikKod);
             this.grpbGuvenlikKod.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.grpbGuvenlikKod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.grpbGuvenlikKod.Location = new System.Drawing.Point(805, 317);
+            this.grpbGuvenlikKod.Location = new System.Drawing.Point(0, 0);
             this.grpbGuvenlikKod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbGuvenlikKod.Name = "grpbGuvenlikKod";
             this.grpbGuvenlikKod.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grpbGuvenlikKod.Size = new System.Drawing.Size(418, 162);
+            this.grpbGuvenlikKod.Size = new System.Drawing.Size(494, 171);
             this.grpbGuvenlikKod.TabIndex = 12;
             this.grpbGuvenlikKod.TabStop = false;
             this.grpbGuvenlikKod.Text = "Güvenlik Kodu Doğrulama";
@@ -108,28 +108,29 @@
             this.btnOnaylaGuvKod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnOnaylaGuvKod.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnOnaylaGuvKod.ForeColor = System.Drawing.Color.White;
-            this.btnOnaylaGuvKod.Location = new System.Drawing.Point(202, 108);
+            this.btnOnaylaGuvKod.Location = new System.Drawing.Point(290, 106);
             this.btnOnaylaGuvKod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOnaylaGuvKod.Name = "btnOnaylaGuvKod";
-            this.btnOnaylaGuvKod.Size = new System.Drawing.Size(183, 38);
+            this.btnOnaylaGuvKod.Size = new System.Drawing.Size(183, 44);
             this.btnOnaylaGuvKod.TabIndex = 13;
             this.btnOnaylaGuvKod.Text = "Onayla";
             this.btnOnaylaGuvKod.UseVisualStyleBackColor = false;
+            this.btnOnaylaGuvKod.Click += new System.EventHandler(this.btnOnaylaGuvKod_Click);
             // 
             // txtGuvenlikKod
             // 
             this.txtGuvenlikKod.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtGuvenlikKod.Location = new System.Drawing.Point(202, 52);
+            this.txtGuvenlikKod.Location = new System.Drawing.Point(190, 53);
             this.txtGuvenlikKod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtGuvenlikKod.Name = "txtGuvenlikKod";
-            this.txtGuvenlikKod.Size = new System.Drawing.Size(183, 30);
+            this.txtGuvenlikKod.Size = new System.Drawing.Size(283, 30);
             this.txtGuvenlikKod.TabIndex = 14;
             // 
             // lblGuvenlikKod
             // 
             this.lblGuvenlikKod.AutoSize = true;
             this.lblGuvenlikKod.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblGuvenlikKod.Location = new System.Drawing.Point(6, 58);
+            this.lblGuvenlikKod.Location = new System.Drawing.Point(6, 56);
             this.lblGuvenlikKod.Name = "lblGuvenlikKod";
             this.lblGuvenlikKod.Size = new System.Drawing.Size(160, 25);
             this.lblGuvenlikKod.TabIndex = 13;
@@ -141,13 +142,14 @@
             this.grpbYeniSifre.Controls.Add(this.btnOnaylaYeniSifre);
             this.grpbYeniSifre.Controls.Add(this.txtYeniSifre);
             this.grpbYeniSifre.Controls.Add(this.lblYeniSifre);
+            this.grpbYeniSifre.Controls.Add(this.grpbGuvenlikKod);
             this.grpbYeniSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.grpbYeniSifre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.grpbYeniSifre.Location = new System.Drawing.Point(962, 141);
+            this.grpbYeniSifre.Location = new System.Drawing.Point(486, 355);
             this.grpbYeniSifre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbYeniSifre.Name = "grpbYeniSifre";
             this.grpbYeniSifre.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grpbYeniSifre.Size = new System.Drawing.Size(418, 162);
+            this.grpbYeniSifre.Size = new System.Drawing.Size(494, 171);
             this.grpbYeniSifre.TabIndex = 15;
             this.grpbYeniSifre.TabStop = false;
             this.grpbYeniSifre.Text = "Yeni Şifre";
@@ -157,21 +159,22 @@
             this.btnOnaylaYeniSifre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnOnaylaYeniSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnOnaylaYeniSifre.ForeColor = System.Drawing.Color.White;
-            this.btnOnaylaYeniSifre.Location = new System.Drawing.Point(202, 108);
+            this.btnOnaylaYeniSifre.Location = new System.Drawing.Point(290, 104);
             this.btnOnaylaYeniSifre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOnaylaYeniSifre.Name = "btnOnaylaYeniSifre";
-            this.btnOnaylaYeniSifre.Size = new System.Drawing.Size(183, 38);
+            this.btnOnaylaYeniSifre.Size = new System.Drawing.Size(183, 49);
             this.btnOnaylaYeniSifre.TabIndex = 13;
             this.btnOnaylaYeniSifre.Text = "Onayla";
             this.btnOnaylaYeniSifre.UseVisualStyleBackColor = false;
+            this.btnOnaylaYeniSifre.Click += new System.EventHandler(this.btnOnaylaYeniSifre_Click);
             // 
             // txtYeniSifre
             // 
             this.txtYeniSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtYeniSifre.Location = new System.Drawing.Point(202, 52);
+            this.txtYeniSifre.Location = new System.Drawing.Point(190, 52);
             this.txtYeniSifre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtYeniSifre.Name = "txtYeniSifre";
-            this.txtYeniSifre.Size = new System.Drawing.Size(183, 30);
+            this.txtYeniSifre.Size = new System.Drawing.Size(283, 30);
             this.txtYeniSifre.TabIndex = 14;
             // 
             // lblYeniSifre
@@ -192,11 +195,11 @@
             this.grpbMailDogrulama.Controls.Add(this.txtMailDogrulama);
             this.grpbMailDogrulama.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.grpbMailDogrulama.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.grpbMailDogrulama.Location = new System.Drawing.Point(787, 483);
+            this.grpbMailDogrulama.Location = new System.Drawing.Point(486, 355);
             this.grpbMailDogrulama.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbMailDogrulama.Name = "grpbMailDogrulama";
             this.grpbMailDogrulama.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grpbMailDogrulama.Size = new System.Drawing.Size(418, 162);
+            this.grpbMailDogrulama.Size = new System.Drawing.Size(494, 171);
             this.grpbMailDogrulama.TabIndex = 16;
             this.grpbMailDogrulama.TabStop = false;
             this.grpbMailDogrulama.Text = "Mail Doğrulama";
@@ -204,7 +207,7 @@
             // rbAdminSifreYenileme
             // 
             this.rbAdminSifreYenileme.AutoSize = true;
-            this.rbAdminSifreYenileme.Location = new System.Drawing.Point(20, 40);
+            this.rbAdminSifreYenileme.Location = new System.Drawing.Point(20, 45);
             this.rbAdminSifreYenileme.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbAdminSifreYenileme.Name = "rbAdminSifreYenileme";
             this.rbAdminSifreYenileme.Size = new System.Drawing.Size(84, 24);
@@ -221,7 +224,7 @@
             this.grpbKullaniciTipiSifreYeni.Controls.Add(this.rbAdminSifreYenileme);
             this.grpbKullaniciTipiSifreYeni.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.grpbKullaniciTipiSifreYeni.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.grpbKullaniciTipiSifreYeni.Location = new System.Drawing.Point(642, 94);
+            this.grpbKullaniciTipiSifreYeni.Location = new System.Drawing.Point(617, 125);
             this.grpbKullaniciTipiSifreYeni.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbKullaniciTipiSifreYeni.Name = "grpbKullaniciTipiSifreYeni";
             this.grpbKullaniciTipiSifreYeni.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -257,9 +260,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(54, 94);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 125);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(522, 526);
+            this.pictureBox1.Size = new System.Drawing.Size(401, 360);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
@@ -269,15 +272,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
-            this.ClientSize = new System.Drawing.Size(1488, 704);
+            this.ClientSize = new System.Drawing.Size(1032, 657);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.grpbKullaniciTipiSifreYeni);
             this.Controls.Add(this.grpbMailDogrulama);
             this.Controls.Add(this.grpbYeniSifre);
-            this.Controls.Add(this.grpbGuvenlikKod);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "SifremiUnuttum_Formu";
             this.Text = "SifremiUnuttum_Formu";
+            this.Load += new System.EventHandler(this.SifremiUnuttum_Formu_Load);
             this.grpbGuvenlikKod.ResumeLayout(false);
             this.grpbGuvenlikKod.PerformLayout();
             this.grpbYeniSifre.ResumeLayout(false);
