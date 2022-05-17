@@ -20,7 +20,7 @@ namespace SinavOtomasyon
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-D966NE9;Initial Catalog=SinavSistemi;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-N6SCB07;Initial Catalog=SinavSistemi;Integrated Security=True");
 
       
 
@@ -97,6 +97,7 @@ namespace SinavOtomasyon
             }
             cmbxTestSec.Text = "";
             cmbxUniteSec.Text = "";
+            pbSoru.Image = null;
         }
     }
 }

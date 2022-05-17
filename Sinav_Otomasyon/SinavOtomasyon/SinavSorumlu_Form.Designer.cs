@@ -225,7 +225,8 @@
             "4",
             "5",
             "6",
-            "7"});
+            "7",
+            "8"});
             this.cmbxUniteSec.Location = new System.Drawing.Point(241, 196);
             this.cmbxUniteSec.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbxUniteSec.Name = "cmbxUniteSec";
@@ -266,7 +267,9 @@
             "2",
             "3",
             "4",
-            "5"});
+            "5",
+            "6",
+            "7"});
             this.cmbxTestSec.Location = new System.Drawing.Point(241, 259);
             this.cmbxTestSec.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbxTestSec.Name = "cmbxTestSec";
@@ -321,7 +324,7 @@
             this.txtASecenek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtASecenek.Multiline = true;
             this.txtASecenek.Name = "txtASecenek";
-            this.txtASecenek.Size = new System.Drawing.Size(154, 26);
+            this.txtASecenek.Size = new System.Drawing.Size(744, 26);
             this.txtASecenek.TabIndex = 32;
             // 
             // txtBSecenek
@@ -330,7 +333,7 @@
             this.txtBSecenek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBSecenek.Multiline = true;
             this.txtBSecenek.Name = "txtBSecenek";
-            this.txtBSecenek.Size = new System.Drawing.Size(154, 26);
+            this.txtBSecenek.Size = new System.Drawing.Size(744, 26);
             this.txtBSecenek.TabIndex = 33;
             // 
             // txtCSecenek
@@ -339,7 +342,7 @@
             this.txtCSecenek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCSecenek.Multiline = true;
             this.txtCSecenek.Name = "txtCSecenek";
-            this.txtCSecenek.Size = new System.Drawing.Size(154, 26);
+            this.txtCSecenek.Size = new System.Drawing.Size(744, 26);
             this.txtCSecenek.TabIndex = 34;
             // 
             // txtDSecenek
@@ -348,7 +351,7 @@
             this.txtDSecenek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDSecenek.Multiline = true;
             this.txtDSecenek.Name = "txtDSecenek";
-            this.txtDSecenek.Size = new System.Drawing.Size(154, 26);
+            this.txtDSecenek.Size = new System.Drawing.Size(744, 26);
             this.txtDSecenek.TabIndex = 35;
             // 
             // SinavSorumlu_Form
