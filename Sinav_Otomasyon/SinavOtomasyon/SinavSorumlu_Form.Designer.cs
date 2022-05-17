@@ -60,7 +60,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.label1.Location = new System.Drawing.Point(464, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 25);
@@ -72,7 +72,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.label2.Location = new System.Drawing.Point(417, 334);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 25);
@@ -84,7 +84,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.label3.Location = new System.Drawing.Point(415, 538);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 25);
@@ -96,7 +96,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.label4.Location = new System.Drawing.Point(415, 642);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 25);
@@ -108,7 +108,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.label5.Location = new System.Drawing.Point(417, 430);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(34, 25);
@@ -120,7 +120,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.label6.Location = new System.Drawing.Point(464, 715);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(146, 25);
@@ -132,7 +132,7 @@
             this.rbADogruScnk.AutoSize = true;
             this.rbADogruScnk.BackColor = System.Drawing.Color.Transparent;
             this.rbADogruScnk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rbADogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rbADogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.rbADogruScnk.Location = new System.Drawing.Point(648, 715);
             this.rbADogruScnk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbADogruScnk.Name = "rbADogruScnk";
@@ -147,7 +147,7 @@
             this.rbBDogruScnk.AutoSize = true;
             this.rbBDogruScnk.BackColor = System.Drawing.Color.Transparent;
             this.rbBDogruScnk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rbBDogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rbBDogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.rbBDogruScnk.Location = new System.Drawing.Point(781, 712);
             this.rbBDogruScnk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbBDogruScnk.Name = "rbBDogruScnk";
@@ -162,7 +162,7 @@
             this.rbCDogruScnk.AutoSize = true;
             this.rbCDogruScnk.BackColor = System.Drawing.Color.Transparent;
             this.rbCDogruScnk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rbCDogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rbCDogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.rbCDogruScnk.Location = new System.Drawing.Point(906, 711);
             this.rbCDogruScnk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbCDogruScnk.Name = "rbCDogruScnk";
@@ -177,7 +177,7 @@
             this.rbDDogruScnk.AutoSize = true;
             this.rbDDogruScnk.BackColor = System.Drawing.Color.Transparent;
             this.rbDDogruScnk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rbDDogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rbDDogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.rbDDogruScnk.Location = new System.Drawing.Point(1023, 711);
             this.rbDDogruScnk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbDDogruScnk.Name = "rbDDogruScnk";
@@ -189,7 +189,7 @@
             // 
             // btnSoruEkle
             // 
-            this.btnSoruEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
+            this.btnSoruEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnSoruEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSoruEkle.ForeColor = System.Drawing.Color.White;
             this.btnSoruEkle.Location = new System.Drawing.Point(72, 379);
@@ -203,7 +203,7 @@
             // 
             // btnTemizle
             // 
-            this.btnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
+            this.btnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnTemizle.ForeColor = System.Drawing.Color.White;
             this.btnTemizle.Location = new System.Drawing.Point(72, 462);
@@ -239,7 +239,7 @@
             this.lblUniteSec.AutoSize = true;
             this.lblUniteSec.BackColor = System.Drawing.Color.Transparent;
             this.lblUniteSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblUniteSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblUniteSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.lblUniteSec.Location = new System.Drawing.Point(79, 201);
             this.lblUniteSec.Name = "lblUniteSec";
             this.lblUniteSec.Size = new System.Drawing.Size(146, 25);
@@ -251,7 +251,7 @@
             this.lblTestSec.AutoSize = true;
             this.lblTestSec.BackColor = System.Drawing.Color.Transparent;
             this.lblTestSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTestSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblTestSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.lblTestSec.Location = new System.Drawing.Point(79, 264);
             this.lblTestSec.Name = "lblTestSec";
             this.lblTestSec.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -295,7 +295,7 @@
             // 
             // btnKaydet
             // 
-            this.btnKaydet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
+            this.btnKaydet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnKaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKaydet.ForeColor = System.Drawing.Color.White;
             this.btnKaydet.Location = new System.Drawing.Point(72, 538);
@@ -309,7 +309,7 @@
             // 
             // btnSoruResimEkle
             // 
-            this.btnSoruResimEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
+            this.btnSoruResimEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnSoruResimEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSoruResimEkle.ForeColor = System.Drawing.Color.White;
             this.btnSoruResimEkle.Location = new System.Drawing.Point(1214, 249);
@@ -361,7 +361,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(219)))), ((int)(((byte)(210)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
             this.ClientSize = new System.Drawing.Size(1390, 836);
             this.Controls.Add(this.txtDSecenek);
             this.Controls.Add(this.txtCSecenek);

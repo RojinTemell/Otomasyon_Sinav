@@ -39,24 +39,28 @@
             // 
             // btnAdminFormOnayla
             // 
+            this.btnAdminFormOnayla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnAdminFormOnayla.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAdminFormOnayla.ForeColor = System.Drawing.Color.White;
             this.btnAdminFormOnayla.Location = new System.Drawing.Point(1147, 615);
             this.btnAdminFormOnayla.Name = "btnAdminFormOnayla";
             this.btnAdminFormOnayla.Size = new System.Drawing.Size(168, 55);
             this.btnAdminFormOnayla.TabIndex = 2;
             this.btnAdminFormOnayla.Text = "Onayla";
-            this.btnAdminFormOnayla.UseVisualStyleBackColor = true;
+            this.btnAdminFormOnayla.UseVisualStyleBackColor = false;
             this.btnAdminFormOnayla.Click += new System.EventHandler(this.btnAdminFormOnayla_Click);
             // 
             // btnKayitGoruntule
             // 
+            this.btnKayitGoruntule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnKayitGoruntule.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKayitGoruntule.ForeColor = System.Drawing.Color.White;
             this.btnKayitGoruntule.Location = new System.Drawing.Point(753, 615);
             this.btnKayitGoruntule.Name = "btnKayitGoruntule";
             this.btnKayitGoruntule.Size = new System.Drawing.Size(315, 55);
             this.btnKayitGoruntule.TabIndex = 3;
             this.btnKayitGoruntule.Text = "Kayıtları Görüntüle";
-            this.btnKayitGoruntule.UseVisualStyleBackColor = true;
+            this.btnKayitGoruntule.UseVisualStyleBackColor = false;
             this.btnKayitGoruntule.Click += new System.EventHandler(this.btnKayitGoruntule_Click);
             // 
             // dgvAdmin
@@ -93,6 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
             this.ClientSize = new System.Drawing.Size(1455, 702);
             this.Controls.Add(this.txtAdminForm);
             this.Controls.Add(this.pbAdmin);
