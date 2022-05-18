@@ -44,7 +44,7 @@ namespace SinavOtomasyon
             message.To.Add(to);
             message.From = new MailAddress(from);
             message.Body = messageBody;
-            message.Subject = "Şifre sıfırlama kodu";
+            message.Subject = "Şifre Sıfırlama Kodu";
             SmtpClient smtp = new SmtpClient("smtp.gmail.com");
             smtp.EnableSsl = true;
             smtp.Port = 587;
@@ -53,7 +53,7 @@ namespace SinavOtomasyon
             try
             {
                 smtp.Send(message);
-                MessageBox.Show(" kod gönderildi");
+                MessageBox.Show("Kod Gönderildi");
                 txtMailDogrulama.Clear();
 
                 
@@ -103,7 +103,7 @@ namespace SinavOtomasyon
         }
             catch (Exception ex)
             {
-                MessageBox.Show(ex+"hatalı mail");
+                MessageBox.Show(ex+"Hatalı Mail");
                 
             }
 
@@ -119,7 +119,7 @@ namespace SinavOtomasyon
             if (randomcode == (txtGuvenlikKod.Text).ToString())
             {
                 to = txtMailDogrulama.Text;
-                MessageBox.Show(" kod onaylandı");
+                MessageBox.Show("Kod Onaylandı");
                 txtGuvenlikKod.Clear();
                 
 
@@ -127,7 +127,7 @@ namespace SinavOtomasyon
             }
             else
             {
-                MessageBox.Show("hatalı kod");
+                MessageBox.Show("Hatalı Kod");
                 txtGuvenlikKod.Clear();
             }
             grpbGuvenlikKod.Visible = false;
@@ -146,7 +146,7 @@ namespace SinavOtomasyon
                 komut.ExecuteNonQuery();
                 baglanti.Close();
                 
-                MessageBox.Show("Şifre başarıyla güncellendi");
+                MessageBox.Show("Şifre Başarıyla Güncellendi");
                 
 
             }
@@ -157,7 +157,7 @@ namespace SinavOtomasyon
                 komut.ExecuteNonQuery();
                 baglanti.Close();
                 
-                MessageBox.Show("Şifre başarıyla güncellendi");
+                MessageBox.Show("Şifre Başarıyla Güncellendi");
                 
 
             }
@@ -168,7 +168,7 @@ namespace SinavOtomasyon
                 komut.ExecuteNonQuery();
                 baglanti.Close();
                 
-                MessageBox.Show("Şifre başarıyla güncellendi");
+                MessageBox.Show("Şifre Başarıyla Güncellendi");
                 
             }
             else

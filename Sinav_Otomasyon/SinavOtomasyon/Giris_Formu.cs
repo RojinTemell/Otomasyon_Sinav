@@ -104,7 +104,7 @@ namespace SinavOtomasyon
             }
             catch (Exception ex)
             {
-                MessageBox.Show("hatalı giriş" + ex.Message);
+                MessageBox.Show("Hatalı Giriş" + ex.Message);
             }
 
         }
@@ -116,7 +116,7 @@ namespace SinavOtomasyon
             if (txtad.Text == "" || txtsoyad.Text == "" || txtkul_adi.Text == "" || txtsifre.Text == "" || txtmail.Text == "")
             {
 
-                MessageBox.Show("alanlar boş bırakılamaz!!");
+                MessageBox.Show("Alanlar Boş Bırakılamaz!!");
             }
             else
             {
@@ -136,7 +136,7 @@ namespace SinavOtomasyon
                         komut.Parameters.AddWithValue("@Mail", txtmail.Text);
                         komut.ExecuteNonQuery();
                         baglanti.Close();
-                        MessageBox.Show("öğrenci olarak  kayıt  yapıldı");
+                        MessageBox.Show("Öğrenci Olarak Kayıt Yapıldı");
                         panel2.Visible = false;
                         panel1.Visible = true;
                         foreach (Control item in panel2.Controls) if (item is TextBox) item.Text = "";
@@ -152,7 +152,7 @@ namespace SinavOtomasyon
                         komut.Parameters.AddWithValue("@Mail", txtmail.Text);
                         komut.ExecuteNonQuery();
                         baglanti.Close();
-                        MessageBox.Show("admin olarak kayıt yapıldı");
+                        MessageBox.Show("Admin Olarak Kayıt Yapıldı");
                         panel2.Visible = false;
                         panel1.Visible = true;
                         foreach (Control item in panel2.Controls) if (item is TextBox) item.Text = "";
@@ -168,7 +168,7 @@ namespace SinavOtomasyon
                         komut.Parameters.AddWithValue("@Mail", txtmail.Text);
                         komut.ExecuteNonQuery();
                         baglanti.Close();
-                        MessageBox.Show(" sınav sorumlusu olarak kayıt yapıldı");
+                        MessageBox.Show("Sınav Sorumlusu Olarak Kayıt Yapıldı");
                         panel2.Visible = false;
                         panel1.Visible = true;
 
@@ -181,7 +181,7 @@ namespace SinavOtomasyon
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("kayıt yapılamadı" + ex);
+                    MessageBox.Show("Kayıt Yapılamadı" + ex);
                 }
             }
         }

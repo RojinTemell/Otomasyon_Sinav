@@ -89,6 +89,9 @@
     <EmbeddedResource Include="Giris_Formu.resx">
       <DependentUpon>Giris_Formu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ogrenci_Form.resx">
+      <DependentUpon>Ogrenci_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

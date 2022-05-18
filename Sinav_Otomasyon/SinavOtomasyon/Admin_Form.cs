@@ -107,5 +107,12 @@ namespace SinavOtomasyon
             }
             MessageBox.Show("Sorular onaylandı");
         }
+
+        private void btnAdminCikis_Click(object sender, EventArgs e)
+        {
+            GirisForm girisForm = new GirisForm();
+            girisForm.Show();
+            this.Hide();
+        }
     }
 }

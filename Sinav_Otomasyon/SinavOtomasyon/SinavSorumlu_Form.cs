@@ -76,7 +76,7 @@ namespace SinavOtomasyon
             komut.Parameters.AddWithValue("@TestID", int.Parse(cmbxTestSec.Text));
             komut.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("soru eklendi");
+            MessageBox.Show("Soru Eklendi");
 
         }
 
@@ -98,6 +98,14 @@ namespace SinavOtomasyon
             cmbxTestSec.Text = "";
             cmbxUniteSec.Text = "";
             pbSoru.Image = null;
+        }
+
+        private void btnSorumluCikis_Click(object sender, EventArgs e)
+        {
+            GirisForm girisForm = new GirisForm();
+            girisForm.Show();
+            this.Hide();
+
         }
     }
 }

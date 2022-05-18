@@ -52,6 +52,7 @@
             this.txtBSecenek = new System.Windows.Forms.TextBox();
             this.txtCSecenek = new System.Windows.Forms.TextBox();
             this.txtDSecenek = new System.Windows.Forms.TextBox();
+            this.btnSorumluCikis = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbSoru)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.label1.Location = new System.Drawing.Point(464, 18);
+            this.label1.Location = new System.Drawing.Point(381, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 25);
             this.label1.TabIndex = 5;
@@ -73,7 +74,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.label2.Location = new System.Drawing.Point(417, 334);
+            this.label2.Location = new System.Drawing.Point(417, 264);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 25);
             this.label2.TabIndex = 6;
@@ -85,7 +86,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.label3.Location = new System.Drawing.Point(415, 538);
+            this.label3.Location = new System.Drawing.Point(415, 362);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 25);
             this.label3.TabIndex = 7;
@@ -97,7 +98,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.label4.Location = new System.Drawing.Point(415, 642);
+            this.label4.Location = new System.Drawing.Point(415, 414);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 25);
             this.label4.TabIndex = 8;
@@ -109,7 +110,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.label5.Location = new System.Drawing.Point(417, 430);
+            this.label5.Location = new System.Drawing.Point(417, 314);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(34, 25);
             this.label5.TabIndex = 9;
@@ -121,7 +122,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.label6.Location = new System.Drawing.Point(464, 715);
+            this.label6.Location = new System.Drawing.Point(495, 479);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(146, 25);
             this.label6.TabIndex = 10;
@@ -133,7 +134,7 @@
             this.rbADogruScnk.BackColor = System.Drawing.Color.Transparent;
             this.rbADogruScnk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbADogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.rbADogruScnk.Location = new System.Drawing.Point(648, 715);
+            this.rbADogruScnk.Location = new System.Drawing.Point(679, 479);
             this.rbADogruScnk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbADogruScnk.Name = "rbADogruScnk";
             this.rbADogruScnk.Size = new System.Drawing.Size(52, 29);
@@ -148,7 +149,7 @@
             this.rbBDogruScnk.BackColor = System.Drawing.Color.Transparent;
             this.rbBDogruScnk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbBDogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.rbBDogruScnk.Location = new System.Drawing.Point(781, 712);
+            this.rbBDogruScnk.Location = new System.Drawing.Point(812, 476);
             this.rbBDogruScnk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbBDogruScnk.Name = "rbBDogruScnk";
             this.rbBDogruScnk.Size = new System.Drawing.Size(51, 29);
@@ -163,7 +164,7 @@
             this.rbCDogruScnk.BackColor = System.Drawing.Color.Transparent;
             this.rbCDogruScnk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbCDogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.rbCDogruScnk.Location = new System.Drawing.Point(906, 711);
+            this.rbCDogruScnk.Location = new System.Drawing.Point(937, 475);
             this.rbCDogruScnk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbCDogruScnk.Name = "rbCDogruScnk";
             this.rbCDogruScnk.Size = new System.Drawing.Size(53, 29);
@@ -178,7 +179,7 @@
             this.rbDDogruScnk.BackColor = System.Drawing.Color.Transparent;
             this.rbDDogruScnk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbDDogruScnk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.rbDDogruScnk.Location = new System.Drawing.Point(1023, 711);
+            this.rbDDogruScnk.Location = new System.Drawing.Point(1056, 475);
             this.rbDDogruScnk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbDDogruScnk.Name = "rbDDogruScnk";
             this.rbDDogruScnk.Size = new System.Drawing.Size(52, 29);
@@ -192,7 +193,7 @@
             this.btnSoruEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnSoruEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSoruEkle.ForeColor = System.Drawing.Color.White;
-            this.btnSoruEkle.Location = new System.Drawing.Point(72, 379);
+            this.btnSoruEkle.Location = new System.Drawing.Point(86, 201);
             this.btnSoruEkle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSoruEkle.Name = "btnSoruEkle";
             this.btnSoruEkle.Size = new System.Drawing.Size(194, 42);
@@ -206,7 +207,7 @@
             this.btnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnTemizle.ForeColor = System.Drawing.Color.White;
-            this.btnTemizle.Location = new System.Drawing.Point(72, 462);
+            this.btnTemizle.Location = new System.Drawing.Point(86, 284);
             this.btnTemizle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(194, 42);
@@ -228,7 +229,7 @@
             "6",
             "7",
             "8"});
-            this.cmbxUniteSec.Location = new System.Drawing.Point(241, 196);
+            this.cmbxUniteSec.Location = new System.Drawing.Point(255, 18);
             this.cmbxUniteSec.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbxUniteSec.Name = "cmbxUniteSec";
             this.cmbxUniteSec.Size = new System.Drawing.Size(55, 30);
@@ -240,7 +241,7 @@
             this.lblUniteSec.BackColor = System.Drawing.Color.Transparent;
             this.lblUniteSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblUniteSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.lblUniteSec.Location = new System.Drawing.Point(79, 201);
+            this.lblUniteSec.Location = new System.Drawing.Point(93, 23);
             this.lblUniteSec.Name = "lblUniteSec";
             this.lblUniteSec.Size = new System.Drawing.Size(146, 25);
             this.lblUniteSec.TabIndex = 18;
@@ -252,7 +253,7 @@
             this.lblTestSec.BackColor = System.Drawing.Color.Transparent;
             this.lblTestSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblTestSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.lblTestSec.Location = new System.Drawing.Point(79, 264);
+            this.lblTestSec.Location = new System.Drawing.Point(93, 86);
             this.lblTestSec.Name = "lblTestSec";
             this.lblTestSec.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblTestSec.Size = new System.Drawing.Size(139, 25);
@@ -271,7 +272,7 @@
             "5",
             "6",
             "7"});
-            this.cmbxTestSec.Location = new System.Drawing.Point(241, 259);
+            this.cmbxTestSec.Location = new System.Drawing.Point(255, 81);
             this.cmbxTestSec.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbxTestSec.Name = "cmbxTestSec";
             this.cmbxTestSec.Size = new System.Drawing.Size(55, 30);
@@ -281,7 +282,7 @@
             // 
             this.pbSoru.BackColor = System.Drawing.Color.Transparent;
             this.pbSoru.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbSoru.Location = new System.Drawing.Point(469, 58);
+            this.pbSoru.Location = new System.Drawing.Point(469, 11);
             this.pbSoru.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbSoru.Name = "pbSoru";
             this.pbSoru.Size = new System.Drawing.Size(739, 232);
@@ -298,7 +299,7 @@
             this.btnKaydet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnKaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKaydet.ForeColor = System.Drawing.Color.White;
-            this.btnKaydet.Location = new System.Drawing.Point(72, 538);
+            this.btnKaydet.Location = new System.Drawing.Point(86, 360);
             this.btnKaydet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(194, 42);
@@ -312,7 +313,7 @@
             this.btnSoruResimEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
             this.btnSoruResimEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSoruResimEkle.ForeColor = System.Drawing.Color.White;
-            this.btnSoruResimEkle.Location = new System.Drawing.Point(1214, 249);
+            this.btnSoruResimEkle.Location = new System.Drawing.Point(1223, 203);
             this.btnSoruResimEkle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSoruResimEkle.Name = "btnSoruResimEkle";
             this.btnSoruResimEkle.Size = new System.Drawing.Size(57, 40);
@@ -323,7 +324,7 @@
             // 
             // txtASecenek
             // 
-            this.txtASecenek.Location = new System.Drawing.Point(469, 332);
+            this.txtASecenek.Location = new System.Drawing.Point(469, 262);
             this.txtASecenek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtASecenek.Multiline = true;
             this.txtASecenek.Name = "txtASecenek";
@@ -332,7 +333,7 @@
             // 
             // txtBSecenek
             // 
-            this.txtBSecenek.Location = new System.Drawing.Point(469, 429);
+            this.txtBSecenek.Location = new System.Drawing.Point(469, 313);
             this.txtBSecenek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBSecenek.Multiline = true;
             this.txtBSecenek.Name = "txtBSecenek";
@@ -341,7 +342,7 @@
             // 
             // txtCSecenek
             // 
-            this.txtCSecenek.Location = new System.Drawing.Point(469, 538);
+            this.txtCSecenek.Location = new System.Drawing.Point(469, 362);
             this.txtCSecenek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCSecenek.Multiline = true;
             this.txtCSecenek.Name = "txtCSecenek";
@@ -350,19 +351,34 @@
             // 
             // txtDSecenek
             // 
-            this.txtDSecenek.Location = new System.Drawing.Point(469, 642);
+            this.txtDSecenek.Location = new System.Drawing.Point(469, 414);
             this.txtDSecenek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDSecenek.Multiline = true;
             this.txtDSecenek.Name = "txtDSecenek";
             this.txtDSecenek.Size = new System.Drawing.Size(744, 26);
             this.txtDSecenek.TabIndex = 35;
             // 
+            // btnSorumluCikis
+            // 
+            this.btnSorumluCikis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
+            this.btnSorumluCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSorumluCikis.ForeColor = System.Drawing.Color.Red;
+            this.btnSorumluCikis.Location = new System.Drawing.Point(86, 429);
+            this.btnSorumluCikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSorumluCikis.Name = "btnSorumluCikis";
+            this.btnSorumluCikis.Size = new System.Drawing.Size(194, 42);
+            this.btnSorumluCikis.TabIndex = 36;
+            this.btnSorumluCikis.Text = "Çıkış Yap";
+            this.btnSorumluCikis.UseVisualStyleBackColor = false;
+            this.btnSorumluCikis.Click += new System.EventHandler(this.btnSorumluCikis_Click);
+            // 
             // SinavSorumlu_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
-            this.ClientSize = new System.Drawing.Size(1390, 836);
+            this.ClientSize = new System.Drawing.Size(1374, 561);
+            this.Controls.Add(this.btnSorumluCikis);
             this.Controls.Add(this.txtDSecenek);
             this.Controls.Add(this.txtCSecenek);
             this.Controls.Add(this.txtBSecenek);
@@ -420,5 +436,6 @@
         private System.Windows.Forms.TextBox txtBSecenek;
         private System.Windows.Forms.TextBox txtCSecenek;
         private System.Windows.Forms.TextBox txtDSecenek;
+        private System.Windows.Forms.Button btnSorumluCikis;
     }
 }
