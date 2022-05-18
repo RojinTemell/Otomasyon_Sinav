@@ -94,7 +94,7 @@
             this.grpbGuvenlikKod.Controls.Add(this.lblGuvenlikKod);
             this.grpbGuvenlikKod.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.grpbGuvenlikKod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.grpbGuvenlikKod.Location = new System.Drawing.Point(0, 0);
+            this.grpbGuvenlikKod.Location = new System.Drawing.Point(462, 231);
             this.grpbGuvenlikKod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbGuvenlikKod.Name = "grpbGuvenlikKod";
             this.grpbGuvenlikKod.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -142,10 +142,9 @@
             this.grpbYeniSifre.Controls.Add(this.btnOnaylaYeniSifre);
             this.grpbYeniSifre.Controls.Add(this.txtYeniSifre);
             this.grpbYeniSifre.Controls.Add(this.lblYeniSifre);
-            this.grpbYeniSifre.Controls.Add(this.grpbGuvenlikKod);
             this.grpbYeniSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.grpbYeniSifre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.grpbYeniSifre.Location = new System.Drawing.Point(486, 355);
+            this.grpbYeniSifre.Location = new System.Drawing.Point(462, 422);
             this.grpbYeniSifre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbYeniSifre.Name = "grpbYeniSifre";
             this.grpbYeniSifre.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -195,7 +194,7 @@
             this.grpbMailDogrulama.Controls.Add(this.txtMailDogrulama);
             this.grpbMailDogrulama.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.grpbMailDogrulama.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.grpbMailDogrulama.Location = new System.Drawing.Point(486, 355);
+            this.grpbMailDogrulama.Location = new System.Drawing.Point(462, 37);
             this.grpbMailDogrulama.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbMailDogrulama.Name = "grpbMailDogrulama";
             this.grpbMailDogrulama.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -224,7 +223,7 @@
             this.grpbKullaniciTipiSifreYeni.Controls.Add(this.rbAdminSifreYenileme);
             this.grpbKullaniciTipiSifreYeni.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.grpbKullaniciTipiSifreYeni.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(59)))), ((int)(((byte)(114)))));
-            this.grpbKullaniciTipiSifreYeni.Location = new System.Drawing.Point(617, 125);
+            this.grpbKullaniciTipiSifreYeni.Location = new System.Drawing.Point(72, 52);
             this.grpbKullaniciTipiSifreYeni.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbKullaniciTipiSifreYeni.Name = "grpbKullaniciTipiSifreYeni";
             this.grpbKullaniciTipiSifreYeni.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -260,7 +259,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(31, 125);
+            this.pictureBox1.Location = new System.Drawing.Point(24, 275);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(401, 360);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -276,6 +275,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.grpbKullaniciTipiSifreYeni);
             this.Controls.Add(this.grpbMailDogrulama);
+            this.Controls.Add(this.grpbGuvenlikKod);
             this.Controls.Add(this.grpbYeniSifre);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "SifremiUnuttum_Formu";
