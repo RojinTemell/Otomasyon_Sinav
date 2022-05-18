@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ogrenci_Form));
             this.pbOgrenciSoru = new System.Windows.Forms.PictureBox();
             this.txtOgrA = new System.Windows.Forms.TextBox();
             this.txtOgrB = new System.Windows.Forms.TextBox();
@@ -47,12 +48,18 @@
             this.lbldk = new System.Windows.Forms.Label();
             this.lblsn = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbOgrenciSoru)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pbOgrenciSoru
             // 
-            this.pbOgrenciSoru.Location = new System.Drawing.Point(134, 46);
+            this.pbOgrenciSoru.Location = new System.Drawing.Point(142, 49);
             this.pbOgrenciSoru.Name = "pbOgrenciSoru";
             this.pbOgrenciSoru.Size = new System.Drawing.Size(768, 373);
             this.pbOgrenciSoru.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -141,35 +148,41 @@
             // 
             // btnTesteBasla
             // 
-            this.btnTesteBasla.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnTesteBasla.Location = new System.Drawing.Point(908, 131);
+            this.btnTesteBasla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
+            this.btnTesteBasla.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTesteBasla.ForeColor = System.Drawing.Color.White;
+            this.btnTesteBasla.Location = new System.Drawing.Point(934, 203);
             this.btnTesteBasla.Name = "btnTesteBasla";
-            this.btnTesteBasla.Size = new System.Drawing.Size(164, 31);
+            this.btnTesteBasla.Size = new System.Drawing.Size(176, 50);
             this.btnTesteBasla.TabIndex = 9;
             this.btnTesteBasla.Text = "Teste Başla";
-            this.btnTesteBasla.UseVisualStyleBackColor = true;
+            this.btnTesteBasla.UseVisualStyleBackColor = false;
             this.btnTesteBasla.Click += new System.EventHandler(this.btnTesteBasla_Click);
             // 
             // btnTestiBitir
             // 
-            this.btnTestiBitir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnTestiBitir.Location = new System.Drawing.Point(920, 190);
+            this.btnTestiBitir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
+            this.btnTestiBitir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTestiBitir.ForeColor = System.Drawing.Color.White;
+            this.btnTestiBitir.Location = new System.Drawing.Point(934, 297);
             this.btnTestiBitir.Name = "btnTestiBitir";
-            this.btnTestiBitir.Size = new System.Drawing.Size(164, 31);
+            this.btnTestiBitir.Size = new System.Drawing.Size(176, 50);
             this.btnTestiBitir.TabIndex = 10;
             this.btnTestiBitir.Text = "Testi Bitir";
-            this.btnTestiBitir.UseVisualStyleBackColor = true;
+            this.btnTestiBitir.UseVisualStyleBackColor = false;
             this.btnTestiBitir.Click += new System.EventHandler(this.btnTestiBitir_Click);
             // 
             // btnSonrakiSoru
             // 
-            this.btnSonrakiSoru.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSonrakiSoru.Location = new System.Drawing.Point(920, 623);
+            this.btnSonrakiSoru.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(134)))), ((int)(((byte)(182)))));
+            this.btnSonrakiSoru.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSonrakiSoru.ForeColor = System.Drawing.Color.White;
+            this.btnSonrakiSoru.Location = new System.Drawing.Point(934, 601);
             this.btnSonrakiSoru.Name = "btnSonrakiSoru";
-            this.btnSonrakiSoru.Size = new System.Drawing.Size(164, 31);
+            this.btnSonrakiSoru.Size = new System.Drawing.Size(176, 48);
             this.btnSonrakiSoru.TabIndex = 13;
             this.btnSonrakiSoru.Text = "Sonraki Soru";
-            this.btnSonrakiSoru.UseVisualStyleBackColor = true;
+            this.btnSonrakiSoru.UseVisualStyleBackColor = false;
             this.btnSonrakiSoru.Click += new System.EventHandler(this.btnSonrakiSoru_Click);
             // 
             // lblsoruno
@@ -191,47 +204,81 @@
             // 
             this.lblTarih.AutoSize = true;
             this.lblTarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTarih.Location = new System.Drawing.Point(951, 20);
+            this.lblTarih.Location = new System.Drawing.Point(982, 46);
             this.lblTarih.Name = "lblTarih";
-            this.lblTarih.Size = new System.Drawing.Size(36, 20);
+            this.lblTarih.Size = new System.Drawing.Size(17, 20);
             this.lblTarih.TabIndex = 12;
-            this.lblTarih.Text = "600";
+            this.lblTarih.Text = "..";
             // 
             // lbldk
             // 
             this.lbldk.AutoSize = true;
-            this.lbldk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbldk.Location = new System.Drawing.Point(929, 61);
+            this.lbldk.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbldk.Location = new System.Drawing.Point(981, 114);
             this.lbldk.Name = "lbldk";
-            this.lbldk.Size = new System.Drawing.Size(41, 29);
+            this.lbldk.Size = new System.Drawing.Size(38, 26);
             this.lbldk.TabIndex = 15;
             this.lbldk.Text = "00";
             // 
             // lblsn
             // 
             this.lblsn.AutoSize = true;
-            this.lblsn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblsn.Location = new System.Drawing.Point(993, 61);
+            this.lblsn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblsn.Location = new System.Drawing.Point(1054, 114);
             this.lblsn.Name = "lblsn";
-            this.lblsn.Size = new System.Drawing.Size(41, 29);
+            this.lblsn.Size = new System.Drawing.Size(38, 26);
             this.lblsn.TabIndex = 16;
             this.lblsn.Text = "00";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(967, 61);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(1028, 114);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 29);
+            this.label1.Size = new System.Drawing.Size(19, 26);
             this.label1.TabIndex = 17;
             this.label1.Text = ":";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(916, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(913, 84);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(62, 70);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(913, 353);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(209, 217);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 20;
+            this.pictureBox3.TabStop = false;
             // 
             // Ogrenci_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(219)))), ((int)(((byte)(210)))));
             this.ClientSize = new System.Drawing.Size(1232, 709);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblsn);
             this.Controls.Add(this.lbldk);
@@ -253,6 +300,9 @@
             this.Text = "Ogrenci_Form";
             this.Load += new System.EventHandler(this.Ogrenci_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbOgrenciSoru)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,5 +328,8 @@
         private System.Windows.Forms.Label lbldk;
         private System.Windows.Forms.Label lblsn;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

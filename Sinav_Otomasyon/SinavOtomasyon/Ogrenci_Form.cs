@@ -22,16 +22,17 @@ namespace SinavOtomasyon
 
         int saniye = 60;
         int dakika = 10;
-        int sorusayisi = 0;
-        bool[] sonuc = new bool[10];
-        string secilen ;
+        int sorusayisi = 1;
+       
+        
 
+      
         private void btnTesteBasla_Click(object sender, EventArgs e)
         {
             timer1.Start();
             
             lblTarih.Text = DateTime.Now.ToLongDateString();
-            
+
             
             baglanti.Open();
             string kayit = "select  top 1 * from tblAdminOnayli  order by newid() ";
@@ -52,8 +53,10 @@ namespace SinavOtomasyon
                     txtOgrB.Text = dr["secenek2"].ToString();
                     txtOgrC.Text = dr["secenek3"].ToString();
                     txtOgrD.Text = dr["secenek4"].ToString();
-                
-                
+
+
+               
+
             }
             baglanti.Close();
         }
@@ -61,17 +64,30 @@ namespace SinavOtomasyon
         private void btnSonrakiSoru_Click(object sender, EventArgs e)
         {
             baglanti.Open();
+            sorusayisi++;
             string kayit = "select  top 1 * from tblAdminOnayli   order by newid() ";
-
             SqlCommand komut = new SqlCommand(kayit, baglanti);
             SqlDataReader dr = komut.ExecuteReader();
- 
-            lblsoruno.Text = sorusayisi.ToString()+".Soru";
 
-            if (dr.Read())
+
+
+           
+
+
+            if (sorusayisi==10)
+            {
+                btnSonrakiSoru.Enabled = false;
+                MessageBox.Show("sorular bitti");
+               
+            }
+            else
+            {
+                lblsoruno.Text = sorusayisi.ToString() + ".Soru";
+
+                if (dr.Read())
                 {
-              
-                Byte[] data = new Byte[0];
+
+                    Byte[] data = new Byte[0];
                     data = (Byte[])(dr["soruResim"]);
                     MemoryStream mem = new MemoryStream(data);
                     pbOgrenciSoru.Image = Image.FromStream(mem);
@@ -80,24 +96,19 @@ namespace SinavOtomasyon
                     txtOgrB.Text = dr["secenek2"].ToString();
                     txtOgrC.Text = dr["secenek3"].ToString();
                     txtOgrD.Text = dr["secenek4"].ToString();
-                
-                 
-                 
 
+                   
                 }
-            if(sorusayisi==10)
-            {
-                btnSonrakiSoru.Enabled = false;
-                MessageBox.Show("sorular bitti");
-               
             }
 
-            
 
+
+            rbOgrA.Checked = false;
+            rbOgrB.Checked=false;
+            rbOgrC.Checked=false;
+            rbOgrD.Checked=false;
             baglanti.Close();
-
-
-
+            dr.Close();
 
         }
 
@@ -119,18 +130,19 @@ namespace SinavOtomasyon
             {
                 timer1.Stop();
                 MessageBox.Show("süreniz bitti");
-            }
-            
-
-
-
+            }         
         }
 
         private void btnTestiBitir_Click(object sender, EventArgs e)
         {
-            
-
+            MessageBox.Show("Sınav Tamamlandı");
             timer1.Stop();
+            GirisForm girisForm = new GirisForm();
+            girisForm.Show();
+            this.Hide();
+
+
+           
 
             
         }

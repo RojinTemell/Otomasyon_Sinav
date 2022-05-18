@@ -67,4 +67,3 @@ C:\Users\rojin\Source\Repos\Otomasyon_Sinavi\Sinav_Otomasyon\SinavOtomasyon\obj\
 C:\Users\rojin\Source\Repos\Otomasyon_Sinavi\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.exe
 C:\Users\rojin\Source\Repos\Otomasyon_Sinavi\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.pdb
 C:\Users\rojin\Source\Repos\Otomasyon_Sinavi\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.Ogrenci_Form.resources
-C:\Users\rojin\Source\Repos\Otomasyon_Sinavi\Sinav_Otomasyon\SinavOtomasyon\obj\Debug\SinavOtomasyon.Sonuc.resources

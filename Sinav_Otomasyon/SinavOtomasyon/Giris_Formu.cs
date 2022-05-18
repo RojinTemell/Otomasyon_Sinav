@@ -54,6 +54,11 @@ namespace SinavOtomasyon
                         ogr_form.Show();
                         this.Hide();
                     }
+                    else
+                    {
+                        MessageBox.Show("Hatalı giriş");
+
+                    }
                 }
                 else if (rbadmin.Checked == true)
                 {
@@ -74,6 +79,11 @@ namespace SinavOtomasyon
                         admin_Form.Show();
                         this.Hide();
                     }
+                    else
+                    {
+                        MessageBox.Show("Hatalı giriş");
+
+                    }
                 }
                 else if (rbsinavsorumlusu.Checked == true)
                 {
@@ -93,6 +103,11 @@ namespace SinavOtomasyon
                         SinavSorumlu_Form sorumlu_Form = new SinavSorumlu_Form();
                         sorumlu_Form.Show();
                         this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Hatalı giriş");
+
                     }
                 }
                 else
